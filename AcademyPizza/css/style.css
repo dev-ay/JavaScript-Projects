@@ -21,23 +21,41 @@ body {
 }
 
 .title h1 {
+    //font-family: 'Over the Rainbow', cursive;
+    font-family: 'La Belle Aurore', cursive;
     font-size: 6em;
+    text-shadow: 0 0 3px #000;
     color: white;/*rgb(161,43,0);*/
 }
 
 .title h6 {
+    font-family: 'Indie Flower', cursive;
     font-size: 2em;
-}
-
-.singleCard {
-    min-width: 300px; 
-    max-width: 500px; 
-    margin-top: 2em;
-
+    margin-top: 30px
 }
 
 input {
     margin-right: 1em;
+}
+
+input[type=radio] {
+    transform: scale(1.5);
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FF */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FF */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+}
+
+.card-deck {
+    background-color: transparent;
 }
 
 .card-header {
@@ -45,19 +63,26 @@ input {
     font-weight: bold;
     text-align: center;
     background-color: rgba(255,173,53,.7);
-}
-
-.card-deck {
-    background-color: transparent;
+    border-radius: 10px 10px 0px 0px !important;
 }
 
 .card {
     background-color: transparent;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50px;
+}
+
+.singleCard {
+    min-width: 300px; 
+    max-width: 500px; 
+    margin-top: 2em;
+    border-radius: 50px;
 }
 
 .card-body {
     background-color: rgba(255,255,255,.9);
+    font-size:1.2em;
+    padding-left:30px;
 }
 
 .card-footer {
@@ -134,10 +159,10 @@ em {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .title h1 {
-        font-size: 4em;
+        font-size: 5em;
     }
     
     .title h6 {
-        font-size: 1.5em;
+        font-size: 1.7em;
     }
 }
