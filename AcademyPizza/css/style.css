@@ -10,6 +10,7 @@ body {
     -o-background-size: cover;
     /*margin-bottom: 90vh;*/
 }
+
 .title{
     margin: 5em auto 0px;
     padding: 3em;
@@ -94,7 +95,7 @@ input[type=checkbox] {
     padding-bottom:5px;
 }
 
-.card-footer h5{
+.card-footer h5 {
     font-weight: bold;
 }
 
@@ -106,6 +107,7 @@ table {
 td {
     font-size: 1em;
 }
+
 td:nth-child(odd) {
     //background-color: blue;
     padding-right: 2em;
@@ -155,7 +157,7 @@ em {
     color: grey;
 }
 
-
+/* Shrink title text on smaller screens*/
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .title h1 {

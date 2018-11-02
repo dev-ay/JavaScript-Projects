@@ -7,19 +7,22 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+        <!-- Primar CSS -->
         <link rel="stylesheet" href="./css/style.css">
 
+        <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower|La+Belle+Aurore|Over+the+Rainbow" rel="stylesheet">
 
-        <title>Place Your Pizza Order</title>
+        <title>Academy Pizza | Place Your Order</title>
     </head>
 
     <body>
-
+        <!--Main Title Display-->
         <div class="title col-md-9">
             <h1>Academy Pizza</h1>
             <h6>Place your order below</h6>
         </div>
+        <!--/Main Title Display-->
 
         <form id="mainForm">
             <div class="card-deck col-md-9" style="margin: 5em auto;">
@@ -146,17 +149,17 @@
                 <!--/Veggies-->
 
             </div>
-
+            
+            <!--/Buttons ("Place Order" and "Reset")-->
             <div class="col-md-6" style="margin:0px auto;">
-                <!--/Buttons-->
                 <div style="margin-top: 50px; margin-bottom: 80px;">
                     <button onclick="startOver()" type="button" class="btn btn-info btn-lg btn-block">Reset</button>
                     <button onclick="order()" type="button" class="btn btn-success btn-lg btn-block">Place Order</button>
-                </div>
-                <!--/Buttons--> 
+                </div>                 
             </div>
+            <!--/Buttons ("Place Order" and "Reset")-->
 
-            <!--/Total-->
+            <!--/Total (Receipt Section)-->
             <div class="card-deck col-md-6" id="receipt">
                 <div class="card totalCard rounded-0 border-0">
                     <div class="card-header text-white rounded-0">
@@ -169,7 +172,7 @@
                                 <td></td>
                             </tr>
                             <tr>
-                                <td id="sizeA">Regular Pizza</td>
+                                <td id="sizeA">Large Pizza</td>
                                 <td id="sizeB">$14.00</td>
                             </tr>
                             <tr>
@@ -222,7 +225,7 @@
                 
             </div>
 
-            <!--/Total-->
+            <!--/Total (Receipt Section)-->
 
 
 
